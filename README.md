@@ -1,8 +1,8 @@
-#mrufinal
-MRU-F-v1-FINAL
+#mrufinal  
+MRU-F-v1-FINAL  
 
 DONE:
-A. GITHUB VIEW (Specs parts 1 - 7) >> MRU-A
+A. GITHUB VIEW (Specs parts 1 - 7) >> MRU-A  
 + (1,2) Using Retrofit library list all “tetris” Repos by the REST API call:
         https://api.github.com/search/repositories?q=tetris 
 + (3,4) RecyclerView grid layout showing Repo name, Owner’s login name and Repo size
@@ -10,7 +10,7 @@ A. GITHUB VIEW (Specs parts 1 - 7) >> MRU-A
 + (6) Pagination - Get 10 entries with every REST call and extend the list by 10 more whenever the list is scrolled to the end. Watch out to the rate limit
 + (7) Add a text field where a user can enter an arbitrary search string instead of "tetris”.
 
-B. CONTACTS VIEW  (Specs part 8) >> MRU-B
+B. CONTACTS VIEW  (Specs part 8) >> MRU-B  
 + RecyclerView that lists all the phone’s Contacts. 
 + Create a model for Contact which contains name, surname, picture if available and a phone number.
 + Tapping the cells should bring up the native phone’s Dialer with that contact’s number. 
