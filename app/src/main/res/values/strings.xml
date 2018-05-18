@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MRU</string>
+    <string name="title_activity_main">GitHub View</string>
+    <string name="title_activity_contacts">Contacts View</string>
+    <string name="title_trending">Trending</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="tvcontactname">tvContactName</string>
+    <string name="tvcontactnumber">tvContactNumber</string>
+    <string name="image">image</string>
+    
+    <string name="hello">Hello World, BroadCastSampleActivity!</string>
+    <string name="app_text">Turn OFF/ON WiFi and Mobile Data to test BroadcastReceiver</string>
+
+    <string name="app_hello">MRU-D - Notification Timer app!\n\nNotification will pop-up at the Notification Bar every 10 seconds, and will NOT be grouped, so overloading is possible.\nTapping on Notification will clear it and open main app view.</string>    
+
+    <string name="username">username: </string>
+    <string name="reponame">Repo name: </string>
+    <string name="login">Log in</string>
+    <string name="search">Search</string>
+    <string name="contacts">Contacts</string>
+    <string name="github">GitHub</string>
+    <string name="repositories">Repositories</string>
+</resources>
