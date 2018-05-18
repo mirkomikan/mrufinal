@@ -154,7 +154,7 @@ public class MainActivity extends AppCompatActivity {
                 new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION));
 
 
-        //----- D. INTERNET STATUS (Specs part 10) >> MRU-D -----//
+        //----- GLOBAL TIMER (Specs part 10) >> MRU-DGLOBAL TIMER (Specs part 10) >> MRU-D -----//
         MyTimerTask myTask = new MyTimerTask();
         Timer myTimer = new Timer();
 

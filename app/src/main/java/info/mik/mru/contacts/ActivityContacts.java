@@ -62,8 +62,9 @@ public class ActivityContacts
         githubButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent mIntent = new Intent(ActivityContacts.this, MainActivity.class);
-                startActivity(mIntent);
+//                Intent mIntent = new Intent(ActivityContacts.this, MainActivity.class);
+//                startActivity(mIntent);
+                finish();
             }
         });
 
@@ -74,14 +75,13 @@ public class ActivityContacts
     @Override
     public Loader<Cursor> onCreateLoader(int id, @Nullable Bundle args) {
         Uri CONTACT_URI = ContactsContract.CommonDataKinds.Phone.CONTENT_URI;
-        CursorLoader cursorLoader = new CursorLoader(
+        return new CursorLoader(
                 this,
                 CONTACT_URI,
                 null,
                 null,
                 null,
                 ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME + " ASC");
-        return cursorLoader;
     }
 
     @Override
