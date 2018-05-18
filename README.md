@@ -1,7 +1,7 @@
-#mrufinal  
+# mrufinal  
 MRU-F-v1-FINAL  
 
-DONE:
+DONE:  
 A. GITHUB VIEW (Specs parts 1 - 7) >> MRU-A  
 + (1,2) Using Retrofit library list all “tetris” Repos by the REST API call:
         https://api.github.com/search/repositories?q=tetris 
