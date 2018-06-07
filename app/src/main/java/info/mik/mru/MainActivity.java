@@ -158,8 +158,8 @@ public class MainActivity extends AppCompatActivity {
         MyTimerTask myTask = new MyTimerTask();
         Timer myTimer = new Timer();
 
-        // specs ask for 5 minute notifications, put to start in 15 sec for testing purposes
-        myTimer.schedule(myTask, 15_000, 120_000);
+        // specs ask for 5 minute notifications, put to start in 120 sec for testing purposes
+        myTimer.schedule(myTask, 120_000, 300_000);
 
 
         //----- Buttons Handlers -----//
